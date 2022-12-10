@@ -1,8 +1,8 @@
 public class ForMonthRecord {
-    String item_names = " ";
-    boolean is_expenses = false;
-    int quantity = 0;
-    int sum_of_one = 0;
+    String item_names;
+    boolean is_expenses;
+    int quantity;
+    int sum_of_one;
 
 
     public ForMonthRecord(String item_names, boolean is_expenses, int quantity, int sum_of_one) {

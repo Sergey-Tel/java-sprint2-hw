@@ -89,10 +89,6 @@ public class MonthlyReport {
     }
 
     public boolean isNotFull() {
-        if(monthsRecord.size() != 0){
-            return false;
-        } else {
-            return true;
-        }
+        return  monthsRecord.size() == 0;
     }
 }

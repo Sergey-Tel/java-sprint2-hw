@@ -83,10 +83,6 @@ public class YearlyReport {
 
 
     public boolean isNotFull() {
-        if (YearData.size() != 0) {
-            return false;
-        } else {
-            return true;
-        }
+        return  YearData.size() == 0;
     }
 }
